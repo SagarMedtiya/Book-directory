@@ -8,7 +8,7 @@ const schema = new Schema({
         required: true
     },
     image: { type: String, required:false, get:(image)=>{
-        return `${image}`;
+        return `${process.env.APP_URL}/${image}`;
     }},
     authors:{
         type: Array,
