@@ -11,7 +11,7 @@
 pnpm install
 ```
 
-## RUN
+## Run
 ```
 pnpm start
 ```
